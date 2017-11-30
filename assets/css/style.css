@@ -1,0 +1,54 @@
+body {
+	background-image: url("../images/sbbackground.png");
+}
+
+.container {
+	background-color: yellow;
+}
+
+#header {
+	padding: 20px;
+	font-size: 60px;
+	font-style: bold;
+	text-align: center;
+	color: black;
+	margin-bottom: 20px;
+}
+
+p {
+	color: black;
+	text-align: center;
+}
+
+#start { 
+    padding : 15px 30px 14px 30px;
+    margin  : 5px auto;
+    display : block;
+    width   : 100px;
+}
+
+#timeClock {
+	text-align: center;
+}
+
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+
+#doneButton { 
+    padding : 15px 30px 14px 30px;
+    margin  : 5px auto;
+    display : block;
+    width   : 100px;
+}
+
+#endContainer {
+	text-align: center;
+}
+
+h3 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+

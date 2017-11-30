@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lan="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Trivia Game</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+	<!-- beginning page -->
+	<header id="startGame">
+		<div class="container">
+			<h1 id="header"> SPONGEBOB SQUAREPANTS </h1>
+			<p>Do you think you're the biggest Spongebob fan out there? Well let's find out by taking this TIMED quiz</p>
+			
+			<br><br>
+
+			<button id="start">Start</button>
+
+		</div>
+	</header>
+	
+	<!-- page pops up after start game button is clicked -->
+	<div id="quizContainer">
+		<div class="container">
+			<h1 id="header"> SPONGEBOB SQUAREPANTS </h1>
+
+			<!-- game timer -->
+			<h3 id="timeClock">Time Remaining: <span id="timeCount">60</span> Seconds</h3>
+
+			<br>
+
+			<!--Questions-->
+
+			<!-- Question 1 -->
+			<!-- a -->
+			<h3>1) Who is SpongeBob's best friend?</h3>
+				<input type="radio" name="q1" value="Patrick Star">Patrick Star 
+				<input type="radio" name="q1" value="Squidward Tentacles">Squidward Tentacles 
+				<input type="radio" name="q1" value="Plankton">Plankton
+				<input type="radio" name="q1" value="Mr. Krabs">Mr. Krabs
+
+			<br>
+			<!-- Question 2 -->
+			<!-- c -->
+			<h3>2) In the episode "SpongeBob Meets the Strangler", how much does the mustache the Strangler wears cost?</h3>
+				<input type="radio" name="q2" value="One Dollar">One Dollar 
+				<input type="radio" name="q2" value="10 cents">10 cents 
+				<input type="radio" name="q2" value="5 cents">5 cents
+				<input type="radio" name="q2" value="50 cents">50 cents
+
+			<br>
+			<!-- Question 3 -->
+			<!-- b -->
+			<h3>3) What was the name of the Krusty Krab before Mr. Krabs bought it?</h3>
+				<input type="radio" name="q3" value="Clam Bucket">Clam Bucket 
+				<input type="radio" name="q3" value="Rusty Krab">Rusty Krab 
+				<input type="radio" name="q3" value="Goofy Goober">Goofy Goober
+				<input type="radio" name="q3" value="Sailor's Pub">Sailor's Pub
+			
+			<br>
+			<!-- Question 4 -->
+			<!-- d -->
+			<h3>4) Which of the following episodes does Mr. Krabs never appear in?</h3>
+				<input type="radio" name="q4" value="Ghoul Fools">Ghoul Fools
+				<input type="radio" name="q4" value="A Day Without Tears">A Day Without Tears 
+				<input type="radio" name="q4" value="PreHibernation Week">PreHibernation Week
+				<input type="radio" name="q4" value="You Don't Know Sponge">You Don't Know Sponge
+			
+			<br>
+			<!-- Question 5 -->
+			<!-- c -->
+			<h3>5) What is the name of the ghost in Squidward's tale?</h3>
+				<input type="radio" name="q5" value="Trash Slinging Masher">Trash Slingling Masher 
+				<input type="radio" name="q5" value="The fash slinging washer">The fash slinging washer
+				<input type="radio" name="q5" value="The hash slinging slasher">The hash slinging slasher
+				<input type="radio" name="q5" value="The crash bringing lasher">The crash bringing lasher
+			
+			<br>
+			<!-- Question 6 -->
+			<!-- b -->
+			<h3>6) In "SB-129", how many letters does Sponge-Tron say there are in the alphabet?</h3>
+				<input type="radio" name="q6" value="24">24
+				<input type="radio" name="q6" value="486">486
+				<input type="radio" name="q6" value="312">312
+				<input type="radio" name="q6" value="692">692
+			
+			<br>
+			<!-- Question 7 -->
+			<!-- d -->
+			<h3>7) How many spots does Squidward have on his forehead?</h3>
+				<input type="radio" name="q7" value="3">3
+				<input type="radio" name="q7" value="6">6
+				<input type="radio" name="q7" value="5">5
+				<input type="radio" name="q7" value="8">8
+			
+			<br>
+			<!-- Question 8 -->
+			<!-- a -->
+			<h3>8) The name of this place?(where squidward moves to)</h3>
+				<input type="radio" name="q8" value="Tentacle Acres">Tentacle Acres
+				<input type="radio" name="q8" value="Squidville">Squidville
+				<input type="radio" name="q8" value="Lamp City">Lamp City
+				<input type="radio" name="q8" value="Patar">Patar
+			
+			<br>
+			<!-- Question 9 -->
+			<!-- Question d -->
+			<h3>9) What does spongebob call the drawing he made with the 'magic pencil'?</h3>
+				<input type="radio" name="q9" value="le spongey">le spongey
+				<input type="radio" name="q9" value="Frankendoodle">Frankendoodle
+				<input type="radio" name="q9" value="Gary 2">Gary 2
+				<input type="radio" name="q9" value="DoodleBob">DoodleBob
+			
+			<br>
+			<!-- Question 10 -->
+			<!-- b -->
+			<h3>10)	What is the first episode of "SpongeBob SquarePants" titled?</h3>
+				<input type="radio" name="q10" value="Krusty Krab Training Video">Krusty Krab Training Video
+				<input type="radio" name="q10" value="Help Wanted">Help Wanted
+				<input type="radio" name="q10" value="Rock Bottom">Rock Bottom
+				<input type="radio" name="q10" value="Band Geeks">Band Geeks
+
+			<br>
+			<!-- Question 11 -->
+			<!-- a -->
+			<h3>11) Spongebob originally had a different name than what we know him as today. It had to be changed since his original name was already taken. What was it?</h3>
+				<input type="radio" name="q11" value="Spongeboy">Spongeboy
+				<input type="radio" name="q11" value="Spongeguy">Spongeguy
+				<input type="radio" name="q11" value="Bobguy">Bobguy
+				<input type="radio" name="q11" value="Spongey">Spongey
+
+			<br>
+			<!-- Question 12 -->
+			<!-- c -->
+			<h3>12) Sandy and Spongebob participate in a sport together quite often. Spongebob puts on his red gear and Sandy puts on green. What is that sport?</h3>
+				<input type="radio" name="q12" value="Jelly Fishing">Jelly Fishing
+				<input type="radio" name="q12" value="Basketball">Basketball
+				<input type="radio" name="q12" value="Karate">Karate
+				<input type="radio" name="q12" value="Surfing">Surfing
+
+			<br>
+			<!-- Question 13 -->
+			<!-- a -->
+			<h3>13) What is the name of Mr. Krab's pet?</h3>
+				<input type="radio" name="q13" value="Mr. Doodles">Mr. Doodles
+				<input type="radio" name="q13" value="Spot">Spot
+				<input type="radio" name="q13" value="Miss Tuffsy">Miss Tuffsy
+				<input type="radio" name="q13" value="Shelley">Shelley
+
+			<br>
+			<!-- Question 14 -->
+			<!-- d -->
+			<h3>14) Which of the following is NOT a Patrick quote?</h3>
+				<input type="radio" name="q14" value="We should">"We should take Bikini Bottom and push it somewhere else!"
+				<input type="radio" name="q14" value="It's booger">"It's booger time!"
+				<input type="radio" name="q14" value="I hate this">"I hate this channel."
+				<input type="radio" name="q14" value="Good grief!">"Good grief! He's naked!"
+
+			<br>
+			<!-- Question 15 -->
+			<!-- b -->
+			<h3>15) In "Welcome to The Bikini Bottom Triangle", which worker at the Krusty Krab disappears first?</h3>
+				<input type="radio" name="q15" value="Patrick">Patrick
+				<input type="radio" name="q15" value="Mr. Krabs">Mr. Krabs
+				<input type="radio" name="q15" value="Squidward">Squidward
+				<input type="radio" name="q15" value="Spongebob">Spongebob
+
+			<br><br>
+
+			<button id="doneButton">DONE!</button>
+
+		</div>
+	</div>
+
+	<!-- end game screen -->
+	<div id="endContainer">
+		<div class="container">
+			<h1 id="header"> SPONGEBOB SQUAREPANTS </h1>
+
+			<h1 id="done">ALL DONE!</h1>
+			<br><br>
+			<h1>Correct Answers: <span id="correctAnswers"></span></h1>
+			<h1>Incorrect Answers: <span id="incorrectAnswers"></span></h1>
+			<h1>Unanswered: <span id="unanswered"></span></h1>
+	
+		</div>
+	</div>
+
+	<!-- JQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- JS LINK!! -->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
